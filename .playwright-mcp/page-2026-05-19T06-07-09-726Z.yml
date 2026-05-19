@@ -1,0 +1,45 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e47]:
+      - generic [ref=e48]:
+        - img "CAST AI" [ref=e49]
+        - generic [ref=e50]: /
+        - generic [ref=e51]: Welcome to CAST AI
+      - paragraph [ref=e52]: Connect your first Kubernetes cluster.
+      - generic [ref=e53]:
+        - generic [ref=e54]: Select your Kubernetes provider
+        - generic [ref=e55]:
+          - button "Amazon EKS AWS" [active] [ref=e56] [cursor=pointer]:
+            - generic [ref=e57]:
+              - generic [ref=e58]: Amazon EKS
+              - generic [ref=e59]: AWS
+            - img [ref=e86]
+          - button "Google GKE GCP" [ref=e60] [cursor=pointer]:
+            - generic [ref=e61]:
+              - generic [ref=e62]: Google GKE
+              - generic [ref=e63]: GCP
+          - button "Microsoft AKS Azure" [ref=e64] [cursor=pointer]:
+            - generic [ref=e65]:
+              - generic [ref=e66]: Microsoft AKS
+              - generic [ref=e67]: Azure
+          - button "Self-managed kubeadm / k3s / RKE" [ref=e68] [cursor=pointer]:
+            - generic [ref=e69]:
+              - generic [ref=e70]: Self-managed
+              - generic [ref=e71]: kubeadm / k3s / RKE
+          - button "Red Hat OpenShift On-prem or cloud" [ref=e72] [cursor=pointer]:
+            - generic [ref=e73]:
+              - generic [ref=e74]: Red Hat OpenShift
+              - generic [ref=e75]: On-prem or cloud
+          - button "Other / Custom KOPS, Rancher…" [ref=e76] [cursor=pointer]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: Other / Custom
+              - generic [ref=e79]: KOPS, Rancher…
+      - generic [ref=e80]:
+        - generic [ref=e81]: Cluster name
+        - textbox "production-cluster" [ref=e82]
+    - generic [ref=e32]:
+      - button "Back" [ref=e83] [cursor=pointer]
+      - button "Get started" [ref=e84] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e42] [cursor=pointer]:
+    - img [ref=e43]
+  - alert [ref=e46]

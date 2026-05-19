@@ -1,0 +1,40 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - img "CAST AI" [ref=e8]
+        - generic [ref=e9]: /
+        - generic [ref=e10]: Welcome to CAST AI
+      - paragraph [ref=e11]: Let's get your org set up.
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]: Organization name
+          - textbox "My organization" [ref=e15]
+        - generic [ref=e16]:
+          - generic [ref=e17]: What do you want to achieve with CAST AI?
+          - button "Reduce Kubernetes infrastructure costs" [active] [ref=e18] [cursor=pointer]:
+            - generic [ref=e19]: Reduce Kubernetes infrastructure costs
+            - img [ref=e21]
+          - generic [ref=e47]:
+            - button "Reduce Kubernetes infrastructure costs" [ref=e48] [cursor=pointer]:
+              - generic [ref=e49]: Reduce Kubernetes infrastructure costs
+              - img [ref=e51]
+            - button "Automate cluster scaling & node management" [ref=e53] [cursor=pointer]:
+              - generic [ref=e54]: Automate cluster scaling & node management
+            - button "Right-size workloads for efficiency" [ref=e55] [cursor=pointer]:
+              - generic [ref=e56]: Right-size workloads for efficiency
+            - button "Improve cluster reliability & uptime" [ref=e57] [cursor=pointer]:
+              - generic [ref=e58]: Improve cluster reliability & uptime
+            - button "Enforce security & compliance policies" [ref=e59] [cursor=pointer]:
+              - generic [ref=e60]: Enforce security & compliance policies
+            - button "Optimize multi-cloud & spot instance usage" [ref=e61] [cursor=pointer]:
+              - generic [ref=e62]: Optimize multi-cloud & spot instance usage
+      - generic [ref=e23]:
+        - heading "Need to invite your team?" [level=2] [ref=e24]
+        - paragraph [ref=e25]: Invite unlimited teammates to your new organization by email.
+        - generic [ref=e26]: Email address
+        - textbox "name@example.com" [ref=e27]
+    - button "Next" [ref=e33] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e42] [cursor=pointer]:
+    - img [ref=e43]
+  - alert [ref=e46]

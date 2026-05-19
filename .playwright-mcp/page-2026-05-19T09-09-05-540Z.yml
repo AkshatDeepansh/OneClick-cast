@@ -1,0 +1,45 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - button "Switch to light mode" [ref=e3] [cursor=pointer]:
+      - img [ref=e4]
+    - generic [ref=e7]:
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - img "CAST AI" [ref=e50]
+          - generic [ref=e51]: /
+          - generic [ref=e52]: Welcome to CAST AI
+        - paragraph [ref=e53]: How would you like to connect?
+        - generic [ref=e54]:
+          - button "Connect your cloud account Full sync — ongoing cost optimization and rightsizing." [ref=e55] [cursor=pointer]:
+            - generic [ref=e56]: Connect your cloud account
+            - generic [ref=e57]: Full sync — ongoing cost optimization and rightsizing.
+          - button "One time snapshot See your savings potential with no ongoing access required." [ref=e58] [cursor=pointer]:
+            - generic [ref=e59]: One time snapshot
+            - generic [ref=e60]: See your savings potential with no ongoing access required.
+        - button "or connect a cluster" [ref=e61] [cursor=pointer]
+      - generic [ref=e64]:
+        - heading "Connect your cloud account" [level=2] [ref=e65]
+        - paragraph [ref=e66]: Grant CAST AI access to start optimizing your cloud spend automatically.
+        - generic [ref=e68]:
+          - generic [ref=e69]: "1"
+          - generic [ref=e70]: Select your cloud provider
+          - generic [ref=e72]:
+            - button "AWS" [ref=e73] [cursor=pointer]
+            - button "GCP" [ref=e74] [cursor=pointer]
+            - button "Azure" [ref=e75] [cursor=pointer]
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - generic [ref=e79]: "2"
+            - generic [ref=e80]: Run this script
+          - paragraph [ref=e81]: Run from any terminal with the cloud CLI configured. CAST AI will set up the required IAM roles.
+          - generic [ref=e82]:
+            - generic [ref=e83]: $
+            - generic [ref=e84]: castctl connect aws
+            - button "Copy" [ref=e85] [cursor=pointer]:
+              - img [ref=e86]
+    - generic [ref=e36]:
+      - button "Back" [ref=e89] [cursor=pointer]
+      - button "Get started" [active] [ref=e90] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e43] [cursor=pointer]:
+    - img [ref=e44]
+  - alert [ref=e47]

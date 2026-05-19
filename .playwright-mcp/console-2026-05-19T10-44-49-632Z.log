@@ -1,0 +1,21 @@
+[    3017ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/googlesans/v62/4UaRrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iq2vgCIhM907w.woff2 @ https://ogs.google.com/widget/callout?prid=19055441&pgid=19055427&puid=4f402ed265968416&eom=1&dc=1&ssc=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=callout&pid=1&spid=243&hl=en&dm=:1
+[    3017ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2 @ https://ogs.google.com/widget/callout?prid=19055441&pgid=19055427&puid=4f402ed265968416&eom=1&dc=1&ssc=1&origin=chrome-untrusted%3A%2F%2Fnew-tab-page&origin=chrome%3A%2F%2Fnew-tab-page&cn=callout&pid=1&spid=243&hl=en&dm=:1
+[   12634ms] [LOG] 
+⠀⠀#######
+ ##########
+#############
+##############
+##############
+###################
+#####################
+#######################
+#######################
+#######################
+######################
+###################
+
+%cWe're hiring!
+
+%chttps://lovable.dev/careers color: #FFFFFF; font-weight: 900; font-size: 18px; text-shadow: 1px 1px 2px black; color: blue; font-size: 16px; @ https://lovable.dev/_next/static/chunks/0vltb8zoexp3k.js?dpl=a1-be0b404550c2e6e5e2da5fd52bf7d:9
+[   16423ms] [LOG] Initializing RudderStack Analytics @ https://lovable.dev/_next/static/chunks/0vltb8zoexp3k.js?dpl=a1-be0b404550c2e6e5e2da5fd52bf7d:9
+[   21537ms] [WARNING] [Meta Pixel] - Removed parameters from custom data due to potential violations. Go to Events Manager to learn more. @ https://lovable.dev/_next/static/chunks/0vltb8zoexp3k.js?dpl=a1-be0b404550c2e6e5e2da5fd52bf7d:9

@@ -1,0 +1,62 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - button "Switch to light mode" [ref=e4] [cursor=pointer]:
+        - img [ref=e5]
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - img "CAST AI" [ref=e53]
+          - generic [ref=e54]: /
+          - generic [ref=e55]: Welcome to CAST AI
+        - paragraph [ref=e56]: How would you like to connect?
+        - generic [ref=e57]:
+          - button "Connect your cloud account Full sync — ongoing cost optimization and rightsizing." [ref=e58] [cursor=pointer]:
+            - generic [ref=e59]: Connect your cloud account
+            - generic [ref=e60]: Full sync — ongoing cost optimization and rightsizing.
+          - button "One time snapshot See your savings potential with no ongoing access required." [ref=e61] [cursor=pointer]:
+            - generic [ref=e62]: One time snapshot
+            - generic [ref=e63]: See your savings potential with no ongoing access required.
+        - button "or connect a cluster" [active] [ref=e64] [cursor=pointer]
+      - generic [ref=e36]:
+        - button "Back" [ref=e65] [cursor=pointer]
+        - button "Get started" [ref=e66] [cursor=pointer]
+    - generic [ref=e67]:
+      - generic [ref=e92]:
+        - heading "Connect your K8s cluster" [level=2] [ref=e93]
+        - paragraph [ref=e94]:
+          - text: Onboard clusters with
+          - strong [ref=e95]: castctl
+          - text: ", our command-line tool. Run the two commands below from any terminal — castctl handles authentication, permissions, and feature setup for you."
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - generic [ref=e98]: "1"
+            - generic [ref=e99]: Install castctl
+            - generic [ref=e101]:
+              - button "macOS" [ref=e102] [cursor=pointer]
+              - button "Linux" [ref=e103] [cursor=pointer]
+              - button "Windows" [ref=e104] [cursor=pointer]
+          - paragraph [ref=e105]: Skip this step if castctl is already installed. Other install methods ↗
+          - generic [ref=e106]:
+            - generic [ref=e107]: $
+            - generic [ref=e108]: brew install castai/tap/castctl
+            - button "Copy" [ref=e109] [cursor=pointer]:
+              - img [ref=e110]
+          - paragraph [ref=e113]:
+            - generic [ref=e114]: ⓘ
+            - text: Requires Homebrew.
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: "2"
+            - generic [ref=e119]: Connect your cluster
+          - paragraph [ref=e120]: Run from a terminal with kubectl context set to the cluster you want to onboard. castctl auto-detects your cloud provider (EKS, GKE, AKS) and walks you through the rest.
+          - generic [ref=e121]:
+            - generic [ref=e122]: $
+            - generic [ref=e123]: castctl cluster connect
+            - button "Copy" [ref=e124] [cursor=pointer]:
+              - img [ref=e125]
+      - generic [ref=e128]:
+        - generic [ref=e131]: Waiting for cluster to connect…
+        - button "View documentation" [ref=e132] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e46] [cursor=pointer]:
+    - img [ref=e47]
+  - alert [ref=e50]

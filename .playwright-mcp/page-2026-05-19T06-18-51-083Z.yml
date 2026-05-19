@@ -1,0 +1,29 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - button "Switch to light mode" [ref=e3] [cursor=pointer]:
+      - img [ref=e4]
+    - generic [ref=e7]:
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - img "CAST AI" [ref=e12]
+          - generic [ref=e13]: /
+          - generic [ref=e14]: Welcome to CAST AI
+        - paragraph [ref=e15]: Let's get your org set up.
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - generic [ref=e18]: Organization name
+            - textbox "My organization" [ref=e19]
+          - generic [ref=e20]:
+            - generic [ref=e21]: What do you want to achieve with CAST AI?
+            - button "Reduce Kubernetes infrastructure costs" [ref=e22]:
+              - text: Reduce Kubernetes infrastructure costs
+              - img [ref=e24]
+        - generic [ref=e26]:
+          - heading "Need to invite your team?" [level=2] [ref=e27]
+          - paragraph [ref=e28]: Invite unlimited teammates to your new organization by email.
+          - generic [ref=e29]: Email address
+          - textbox "name@example.com" [ref=e30]
+      - button "Next" [ref=e36] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=e45] [cursor=pointer]:
+    - img [ref=e46]
+  - alert [ref=e49]

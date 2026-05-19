@@ -1,0 +1,165 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - img "CAST AI" [ref=e6]
+      - generic [ref=e7]:
+        - button "OpsPilot" [ref=e8] [cursor=pointer]:
+          - img [ref=e9]
+          - text: OpsPilot
+        - button [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+        - button [ref=e16] [cursor=pointer]:
+          - img [ref=e17]
+        - button [ref=e21] [cursor=pointer]:
+          - img [ref=e22]
+        - button "AK" [ref=e26] [cursor=pointer]
+    - generic [ref=e27]:
+      - complementary [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]: Infrastructure
+          - generic [ref=e31]:
+            - button "Clusters" [ref=e34]:
+              - img [ref=e36]
+              - text: Clusters
+            - button "Cloud VMs" [ref=e42] [cursor=pointer]:
+              - img [ref=e44]
+              - text: Cloud VMs
+            - button "Disks" [ref=e47] [cursor=pointer]:
+              - img [ref=e49]
+              - text: Disks
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - button "Optimize" [ref=e55] [cursor=pointer]:
+              - img [ref=e57]
+              - generic [ref=e59]: Optimize
+              - img [ref=e61]
+            - generic [ref=e63]:
+              - button "Workload autoscaling" [ref=e64] [cursor=pointer]
+              - button "Node autoscaling" [ref=e65] [cursor=pointer]
+              - button "Hibernation" [ref=e66] [cursor=pointer]
+              - button "Rebalancing" [ref=e67] [cursor=pointer]
+          - generic [ref=e68]:
+            - button "Cost management" [ref=e69] [cursor=pointer]:
+              - img [ref=e71]
+              - generic [ref=e75]: Cost management
+              - img [ref=e77]
+            - generic [ref=e79]:
+              - button "Cost overview" [ref=e80] [cursor=pointer]
+              - button "Commitments" [ref=e81] [cursor=pointer]
+              - button "Price adjustment" [ref=e82] [cursor=pointer]
+              - button "Budgets" [ref=e83] [cursor=pointer]
+          - button "Settings" [ref=e85] [cursor=pointer]:
+            - img [ref=e87]
+            - text: Settings
+      - generic [ref=e90]:
+        - generic [ref=e91]:
+          - button "A AD-Play" [ref=e92] [cursor=pointer]:
+            - generic [ref=e93]: A
+            - text: AD-Play
+            - img [ref=e95]
+          - img [ref=e98]
+          - button "Clusters" [ref=e100]
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - heading "Clusters" [level=1] [ref=e105]
+              - paragraph [ref=e106]: 4 clusters across 3 providers
+            - button "Connect cluster" [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+              - text: Connect cluster
+          - generic [ref=e110]:
+            - generic [ref=e111]:
+              - generic [ref=e112]: Clusters
+              - generic [ref=e113]: "4"
+              - generic [ref=e114]: 3 active
+            - generic [ref=e115]:
+              - generic [ref=e116]: Total nodes
+              - generic [ref=e117]: "47"
+              - generic [ref=e118]: across all clusters
+            - generic [ref=e119]:
+              - generic [ref=e120]: Monthly spend
+              - generic [ref=e121]: $21.0k
+              - generic [ref=e122]: current usage
+            - generic [ref=e123]:
+              - generic [ref=e124]: Monthly savings
+              - generic [ref=e125]: $10.7k
+              - generic [ref=e126]: 34% reduction vs on-demand
+          - table [ref=e128]:
+            - rowgroup [ref=e129]:
+              - row "Cluster Provider Status Nodes Monthly cost Savings Mode" [ref=e130]:
+                - columnheader "Cluster" [ref=e131]
+                - columnheader "Provider" [ref=e132]
+                - columnheader "Status" [ref=e133]
+                - columnheader "Nodes" [ref=e134]
+                - columnheader "Monthly cost" [ref=e135]
+                - columnheader "Savings" [ref=e136]
+                - columnheader "Mode" [ref=e137]
+            - rowgroup [ref=e138]:
+              - row "production-us-east us-east-1 EKS Live 24 $12.4k /mo -38% $7.6k saved Full automation" [ref=e139] [cursor=pointer]:
+                - cell "production-us-east us-east-1" [ref=e140]:
+                  - generic [ref=e141]: production-us-east
+                  - generic [ref=e142]: us-east-1
+                - cell "EKS" [ref=e143]:
+                  - generic [ref=e144]: EKS
+                - cell "Live" [ref=e145]:
+                  - generic [ref=e148]: Live
+                - cell "24" [ref=e149]
+                - cell "$12.4k /mo" [ref=e150]:
+                  - text: $12.4k
+                  - generic [ref=e151]: /mo
+                - cell "-38% $7.6k saved" [ref=e152]:
+                  - generic [ref=e153]: "-38%"
+                  - generic [ref=e154]: $7.6k saved
+                - cell "Full automation" [ref=e155]:
+                  - generic [ref=e156]: Full automation
+              - row "analytics-gcp us-central1 GKE Live 12 $5.2k /mo -31% $2.3k saved Cost optimization" [ref=e157] [cursor=pointer]:
+                - cell "analytics-gcp us-central1" [ref=e158]:
+                  - generic [ref=e159]: analytics-gcp
+                  - generic [ref=e160]: us-central1
+                - cell "GKE" [ref=e161]:
+                  - generic [ref=e162]: GKE
+                - cell "Live" [ref=e163]:
+                  - generic [ref=e166]: Live
+                - cell "12" [ref=e167]
+                - cell "$5.2k /mo" [ref=e168]:
+                  - text: $5.2k
+                  - generic [ref=e169]: /mo
+                - cell "-31% $2.3k saved" [ref=e170]:
+                  - generic [ref=e171]: "-31%"
+                  - generic [ref=e172]: $2.3k saved
+                - cell "Cost optimization" [ref=e173]:
+                  - generic [ref=e174]: Cost optimization
+              - row "staging-eu-west europe-west1 GKE Live 8 $2.8k /mo -22% $783 saved Cost optimization" [ref=e175] [cursor=pointer]:
+                - cell "staging-eu-west europe-west1" [ref=e176]:
+                  - generic [ref=e177]: staging-eu-west
+                  - generic [ref=e178]: europe-west1
+                - cell "GKE" [ref=e179]:
+                  - generic [ref=e180]: GKE
+                - cell "Live" [ref=e181]:
+                  - generic [ref=e184]: Live
+                - cell "8" [ref=e185]
+                - cell "$2.8k /mo" [ref=e186]:
+                  - text: $2.8k
+                  - generic [ref=e187]: /mo
+                - cell "-22% $783 saved" [ref=e188]:
+                  - generic [ref=e189]: "-22%"
+                  - generic [ref=e190]: $783 saved
+                - cell "Cost optimization" [ref=e191]:
+                  - generic [ref=e192]: Cost optimization
+              - row "dev-us-west westus2 AKS Paused 3 $640 /mo — Manual" [ref=e193] [cursor=pointer]:
+                - cell "dev-us-west westus2" [ref=e194]:
+                  - generic [ref=e195]: dev-us-west
+                  - generic [ref=e196]: westus2
+                - cell "AKS" [ref=e197]:
+                  - generic [ref=e198]: AKS
+                - cell "Paused" [ref=e199]:
+                  - generic [ref=e202]: Paused
+                - cell "3" [ref=e203]
+                - cell "$640 /mo" [ref=e204]:
+                  - text: $640
+                  - generic [ref=e205]: /mo
+                - cell "—" [ref=e206]
+                - cell "Manual" [ref=e207]:
+                  - generic [ref=e208]: Manual
+  - button "Open Next.js Dev Tools" [ref=e214] [cursor=pointer]:
+    - img [ref=e215]

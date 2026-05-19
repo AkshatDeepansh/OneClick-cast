@@ -1,0 +1,45 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - button "Switch to light mode" [ref=e4] [cursor=pointer]:
+        - img [ref=e5]
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - img "CAST AI" [ref=e53]
+          - generic [ref=e54]: /
+          - generic [ref=e55]: Welcome to CAST AI
+        - paragraph [ref=e56]: How would you like to connect?
+        - generic [ref=e57]:
+          - button "Connect your cloud account Full sync — ongoing cost optimization and rightsizing." [ref=e58] [cursor=pointer]:
+            - generic [ref=e59]: Connect your cloud account
+            - generic [ref=e60]: Full sync — ongoing cost optimization and rightsizing.
+          - button "One time snapshot See your savings potential with no ongoing access required." [ref=e61] [cursor=pointer]:
+            - generic [ref=e62]: One time snapshot
+            - generic [ref=e63]: See your savings potential with no ongoing access required.
+        - button "or connect a cluster" [ref=e64] [cursor=pointer]
+      - generic [ref=e36]:
+        - button "Back" [ref=e65] [cursor=pointer]
+        - button "Get started" [active] [ref=e66] [cursor=pointer]
+    - generic [ref=e67]:
+      - heading "Connect your cloud account" [level=2] [ref=e68]
+      - paragraph [ref=e69]: Grant CAST AI access to start optimizing your cloud spend automatically.
+      - generic [ref=e71]:
+        - generic [ref=e72]: "1"
+        - generic [ref=e73]: Select your cloud provider
+        - generic [ref=e75]:
+          - button "AWS" [ref=e76] [cursor=pointer]
+          - button "GCP" [ref=e77] [cursor=pointer]
+          - button "Azure" [ref=e78] [cursor=pointer]
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - generic [ref=e82]: "2"
+          - generic [ref=e83]: Run this script
+        - paragraph [ref=e84]: Run from any terminal with the cloud CLI configured. CAST AI will set up the required IAM roles.
+        - generic [ref=e85]:
+          - generic [ref=e86]: $
+          - generic [ref=e87]: castctl connect aws
+          - button "Copy" [ref=e88] [cursor=pointer]:
+            - img [ref=e89]
+  - button "Open Next.js Dev Tools" [ref=e46] [cursor=pointer]:
+    - img [ref=e47]
+  - alert [ref=e50]

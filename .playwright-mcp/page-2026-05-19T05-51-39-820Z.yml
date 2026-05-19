@@ -1,0 +1,25 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - img [ref=e5]
+        - generic [ref=e10]: /
+        - generic [ref=e11]: Welcome to CAST AI
+      - generic [ref=e13]:
+        - paragraph [ref=e14]: Let's get your org set up.
+        - generic [ref=e15]:
+          - generic [ref=e16]: Organization name
+          - textbox "My organization" [ref=e17]
+        - generic [ref=e18]:
+          - generic [ref=e19]: What's this organization for?
+          - button "Personal projects" [ref=e20] [cursor=pointer]:
+            - generic [ref=e21]: Personal projects
+            - img [ref=e23]
+        - generic [ref=e25]:
+          - heading "Need to invite your team?" [level=2] [ref=e26]
+          - paragraph [ref=e27]: Invite unlimited teammates to your new organization by email.
+          - generic [ref=e28]: Email address
+          - textbox "name@example.com" [ref=e29]
+      - button "Next" [ref=e35] [cursor=pointer]
+    - paragraph [ref=e40]: Coming soon
+  - alert [ref=e41]
